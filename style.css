@@ -1,0 +1,84 @@
+/* importing fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --primary: #eeeff1;
+  --secondary: #1a1c20;
+}
+/* applying fonts and basic properties */
+html {
+  font-size: 10px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: var(--primary);
+}
+
+/* navbar */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5em 4em;
+  font-size: 1rem;
+}
+
+.nav_logo p {
+  color: var(--secondary);
+  font-size: 3em;
+  font-weight: 800;
+}
+
+.nav_item {
+  font-size: 1.6em;
+  font-weight: 500;
+  color: var(--secondary);
+  text-decoration: none;
+  padding: 0px 0.5em;
+}
+
+.nav_item:hover {
+  color: #636363;
+}
+
+/* hero section */
+.container {
+  max-width: 1140px;
+  margin: 0px auto;
+}
+
+.hero {
+  font-size: 1rem;
+  margin: 8vh 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero_image {
+  width: 100%;
+  border-radius: 1em;
+}
+.hero_text {
+  margin-left: 5em;
+}
+.hero_title {
+  font-size: 6em;
+  font-weight: 500;
+  margin-bottom: 20px;
+  line-height: 1.3em;
+}
+
+.hero_description {
+  font-size: 2em;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  line-height: 1.5em;
+}
