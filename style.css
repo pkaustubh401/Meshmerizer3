@@ -55,8 +55,10 @@ body {
 }
 
 .hero {
+  height: 100vh;
+  width: 100%;
   font-size: 1rem;
-  margin: 18vh 0px 0px 0px;
+  /* margin: 18vh 0px 0px 0px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -81,4 +83,50 @@ body {
   font-weight: 400;
   letter-spacing: 0.12em;
   line-height: 1.5em;
+}
+
+/* about styling */
+.about {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.about_heading {
+  font-size: 8em;
+  font-weight: 400;
+}
+
+.about_section {
+  margin-top: 8em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about_image_box {
+  flex: 0 0 30%;
+}
+
+.about_image {
+  border-radius: 1em;
+}
+
+.about_text {
+  margin-right: 5em;
+}
+.about_title {
+  font-size: 6em;
+  font-weight: 500;
+  margin-bottom: 20px;
+  line-height: 1.3em;
+  text-align: left;
+}
+
+.about_description {
+  font-size: 2em;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  line-height: 1.5em;
+  text-align: left;
 }
