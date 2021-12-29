@@ -89,6 +89,7 @@ body {
 .about {
   text-align: center;
   font-size: 1rem;
+  margin-bottom: 400px;
 }
 
 .about_heading {
@@ -129,4 +130,118 @@ body {
   letter-spacing: 0.12em;
   line-height: 1.5em;
   text-align: left;
+}
+
+/* skills */
+.skill_heading {
+  margin-top: 15em;
+  margin-bottom: 2em;
+}
+.skill_heading h3 {
+  font-size: 6em;
+  font-weight: 500;
+  line-height: 1.3em;
+  text-align: left;
+}
+.skill_info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.skill_name {
+  font-size: 3em;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  line-height: 1.5em;
+}
+
+.skill_percent {
+  font-size: 3em;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  line-height: 1.5em;
+}
+
+.skill_tab {
+  padding: 2em 0px;
+}
+.skill_bar {
+  width: 100%;
+  height: 10px;
+  background-color: #b2b2b2;
+  border-radius: 5px;
+}
+
+.skill_bar_progress {
+  height: 10px;
+  border-radius: 5px;
+  background-color: var(--secondary);
+}
+
+#html {
+  width: 90%;
+}
+#css {
+  width: 80%;
+}
+#js {
+  width: 90%;
+}
+#bootstrap {
+  width: 50%;
+}
+
+/* contatct */
+.contact {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.contact_heading {
+  font-size: 8em;
+  font-weight: 400;
+}
+.contact_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8em;
+}
+
+.contact_info_bar {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  margin-bottom: 4em;
+}
+
+.contact_name {
+  font-size: 5em;
+  font-weight: 500;
+  line-height: 1em;
+  text-align: left;
+}
+
+.contact_value {
+  font-size: 1.5em;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  line-height: 1.5em;
+  text-align: left;
+}
+
+.contact_icon img {
+  margin-top: 5px;
+  margin-right: 1.5em;
+  width: 40px;
+}
+.contact_illustration svg {
+  width: 100%;
+  height: auto;
+}
+.contact_illustration {
+  flex: 1 0 70%;
+  margin-left: 3em;
 }
