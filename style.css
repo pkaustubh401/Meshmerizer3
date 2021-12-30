@@ -45,6 +45,7 @@ body {
   color: var(--secondary);
   text-decoration: none;
   padding: 0px 0.5em;
+  transition: all 0.2s ease;
 }
 
 .nav_item:hover {
@@ -68,11 +69,20 @@ body {
   height: auto;
   padding-bottom: 1em;
 }
+.icon_link svg path {
+  fill: var(--secondary);
+  transition: all 0.2s ease-in-out;
+}
+
+.icon_link:hover svg path {
+  fill: #636363;
+}
 
 /* hero section */
 .container {
   max-width: 1140px;
   margin: 0px auto;
+  padding: 20px;
 }
 
 .hero {
@@ -135,6 +145,7 @@ body {
 }
 
 .about_text {
+  text-align: left;
   margin-right: 5em;
 }
 .about_title {
@@ -151,6 +162,17 @@ body {
   letter-spacing: 0.12em;
   line-height: 1.5em;
   text-align: left;
+}
+.download_cv {
+  width: fit-content;
+  display: block;
+  background-color: #1a1c20;
+  margin: 0.8em 0 0 0;
+  padding: 0.8em 1em;
+  text-decoration: none;
+  color: var(--primary);
+  font-size: 2em;
+  border-radius: 10px;
 }
 
 /* skills */
