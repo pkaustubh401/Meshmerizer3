@@ -37,10 +37,11 @@ body {
   color: var(--secondary);
   font-size: 3em;
   font-weight: 800;
+  z-index: 100;
 }
 
 .nav_item {
-  font-size: 1.6em;
+  font-size: 1.8em;
   font-weight: 500;
   color: var(--secondary);
   text-decoration: none;
@@ -134,7 +135,7 @@ body {
 .about {
   text-align: center;
   font-size: 1rem;
-  margin-bottom: 400px;
+  margin-bottom: 14em;
 }
 
 .about_heading {
@@ -362,6 +363,10 @@ body {
   .about_image {
     display: none;
   }
+
+  .about_text {
+    margin: 0;
+  }
   .about_image_box {
     flex: 0 0 auto;
   }
@@ -396,6 +401,9 @@ body {
     display: block;
   }
 
+  .nav {
+    padding: 0;
+  }
   .nav_burger_div {
     padding: 5px;
     display: inline;
@@ -413,8 +421,10 @@ body {
   .nav_item {
     font-size: 2em;
     display: block;
+    padding: 1em 0;
   }
   .nav_items {
+    background-color: rgb(230, 230, 230);
     width: 100%;
     text-align: center;
     transition: all 0.8s ease;
@@ -425,6 +435,32 @@ body {
   }
 
   .home_item {
-    padding-top: 30px;
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 8px;
+  }
+
+  .icons_section {
+    display: none;
+  }
+  .hero_image_box {
+    margin: auto;
+    width: 100%;
+  }
+
+  .hero_image {
+    width: 100%;
+  }
+
+  .about_title {
+    font-size: 5em;
+  }
+
+  .contact_illustration {
+    display: none;
   }
 }
