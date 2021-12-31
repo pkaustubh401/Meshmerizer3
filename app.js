@@ -12,3 +12,7 @@ for (let i = 0; i < nav_item.length; i++) {
     console.log("clicked");
   });
 }
+
+AOS.init({
+  duration: 1200,
+});
